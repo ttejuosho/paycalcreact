@@ -1,0 +1,52 @@
+
+  
+  body{
+    font-family: 'Titillium Web', sans-serif;
+    line-height: 1.8;
+    padding-top: 10px;
+    margin: 0 auto;
+  }
+  
+  label{
+    margin-right: .5rem;
+  }
+  
+  .col{
+    padding: 2px;
+  }
+  
+  .btn-sm {
+    padding: .2rem .9rem !important;
+    line-height: 0.8 !important;
+    border-radius: .2rem !important;
+  }
+  
+  .appInfo{
+    font-size: 0.8rem !important;
+  }
+  
+  #info{
+    border-radius: 50% !important;
+  }
+  
+  .btn-sm{
+    padding: .25rem .5rem !important;
+  }
+  .dot {
+    height: 10px;
+    width: 10px;
+    background-color: rgb(0, 218, 83);
+    border-radius: 50%;
+    display: inline-block;
+  }
+  
+  #appName{
+    margin-top: 3rem !important;
+  }
+
+.form-check-input{
+    margin-left: 0.75rem !important;
+}
+  .form-check-label{
+    padding-left: 2.25rem !important;
+  }
