@@ -25,7 +25,7 @@ class Form extends Component {
 
 render(){
 return( 
-<div className="jumbotron">
+        <div className="jumbotron">
             <div className="col-md-5 offset-md-8 align-self-end">System Status: <span className="dot"> </span> Online</div>
             
             <form onSubmit={this.handleSubmit}>
@@ -51,7 +51,7 @@ return(
                         <label className="form-check-label" htmlFor="weekly">Weekly</label>
                     </div>
                     <div className="form-check form-check-inline">
-                        <input className="form-check-input" type="radio" name="payPeriod" value="Bi-Weekly" checked 
+                        <input className="form-check-input" type="radio" name="payPeriod" value="Bi-Weekly" 
                                 checked = {this.state.payPeriod === "Bi-Weekly"}
                                 onChange= {this.inputChangeHandler.bind(this)}/>
                         <label className="form-check-label" htmlFor="biWeekly">Bi-Weekly</label>
@@ -72,7 +72,7 @@ return(
                         <label className="form-check-label" htmlFor="single">Single/Head of Household</label>
                     </div>
                     <div className="form-check form-check-inline">
-                        <input className="form-check-input" type="radio" name="maritalStatus" value="Married" checked 
+                        <input className="form-check-input" type="radio" name="maritalStatus" value="Married" 
                         checked = {this.state.maritalStatus === "Married"}
                         onChange= {this.inputChangeHandler.bind(this)} />
                         <label className="form-check-label" htmlFor="married">Married</label>
